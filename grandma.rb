@@ -11,8 +11,8 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def speak_to_grandma(input)
-  if input.is_lower
+def speak_to_grandma(str)
+  if !input.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
